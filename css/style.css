@@ -23,8 +23,8 @@ section{
 }
 
 p#section-header{
-    padding:2%;
-    width:40%;
+    padding:10px;
+    width:150px;
     text-align: center;
     color:white;
     border:black solid 1px;
@@ -34,8 +34,8 @@ p#section-header{
     background-color:rgb(134, 40, 40);
 }
 p#body{
-    margin-top:10%;
-    padding:5%;
+    margin-top:40px;
+    padding:20px;
 }
 
 /*
@@ -59,5 +59,8 @@ equal to or less than 767px : mobile
     }
     section#third{
         width:98%;
+    }
+    section#3 p#section-header{
+        width:20%;
     }
 }
