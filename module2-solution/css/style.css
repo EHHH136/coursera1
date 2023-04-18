@@ -1,6 +1,7 @@
 *{
     padding:0;
     margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
     background-color:rgb(100, 100, 232);
@@ -8,11 +9,55 @@ body{
 
 h1{
     text-align:center;
+    color:white;
 }
 
 section{
-    margin:10px;
+    float:left;
     background-color: blanchedalmond;
-    width:8.33%;
-    height:8.33%;
+    width:98%;
+    height:10.33%;
+    border:black solid 1px;
+    margin:1%;
+    box-sizing:border-box;
+}
+
+p#section-header{
+    padding:2%;
+    width:40%;
+    text-align: center;
+    color:white;
+    border:black solid 1px;
+    box-sizing: border-box;
+    position:relative;
+    float:right;
+    background-color:rgb(134, 40, 40);
+}
+p#body{
+    margin-top:10%;
+    padding:5%;
+}
+
+/*
+ Defining Breakpoints
+
+ 992px and above : desktop
+between 768px and 991px : tablet
+equal to or less than 767px : mobile
+
+*/
+
+@media screen and (min-width: 992px){
+    section{
+        width: 31.33%;
+    }
+}
+
+@media (max-width: 991px) and (min-width:768px){
+    section{
+        width: 48%;
+    }
+    section#third{
+        width:98%;
+    }
 }
