@@ -21,8 +21,16 @@ section{
     margin:1%;
     box-sizing:border-box;
 }
-
-p#section-header{
+p#section-header1{
+    background-color:rgb(134, 40, 40);
+}
+p#section-header2{
+    background-color:rgb(62, 112, 100)
+}
+p#section-header3{
+    background-color:rgb(126, 39, 111)
+}
+p#section-header1, #section-header2, #section-header3{
     padding:10px;
     width:150px;
     text-align: center;
@@ -31,7 +39,6 @@ p#section-header{
     box-sizing: border-box;
     position:relative;
     float:right;
-    background-color:rgb(134, 40, 40);
 }
 p#body{
     margin-top:40px;
